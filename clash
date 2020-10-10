@@ -8,17 +8,6 @@ external-controller: 0.0.0.0:9090
 secret: ""
 cfw-latency-url: http://cp.cloudflare.com/generate_204
 proxies:
-  - name: Taiwan | V2Ray
-    type: vmess
-    server: tw.ljf.kim
-    port: "18651"
-    uuid: 092f09a3-cc42-4c9d-9b70-842663af2b89
-    alterId: "64"
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /f5aff419f8e81/
   - name: Hong Kong | V2Ray
     type: vmess
     server: hk.ljf.kim
@@ -30,6 +19,17 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-path: /7e7b643f2b88b9b/
+  - name: Taiwan | V2Ray
+    type: vmess
+    server: tw.ljf.kim
+    port: "18651"
+    uuid: 092f09a3-cc42-4c9d-9b70-842663af2b89
+    alterId: "64"
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /f5aff419f8e81/
   - name: Japan | V2Ray
     type: vmess
     server: jp.ljf.kim
@@ -106,13 +106,6 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-  - name: netflix
-    proxies:
-      - PROXY
-      - DIRECT
-      - Taiwan | V2Ray
-      - Japan | V2Ray
-    type: select
 rules:
   - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
   - DOMAIN,dl.google.com,DIRECT
