@@ -8,7 +8,7 @@ external-controller: 0.0.0.0:9090
 secret: ""
 cfw-latency-url: http://cp.cloudflare.com/generate_204
 proxies:
-  - name: Hong Kong | V2Ray
+  - name: 🇭🇰 Hong Kong | V2Ray
     type: vmess
     server: hk.ljf.kim
     port: "18651"
@@ -19,7 +19,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-path: /7e7b643f2b88b9b/
-  - name: Taiwan | V2Ray
+  - name: 🇹🇼 Taiwan | V2Ray
     type: vmess
     server: tw.ljf.kim
     port: "18651"
@@ -30,7 +30,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-path: /f5aff419f8e81/
-  - name: Japan | V2Ray
+  - name: 🇯🇵 Japan | V2Ray
     type: vmess
     server: jp.ljf.kim
     port: "18651"
@@ -47,23 +47,23 @@ proxy-groups:
     proxies:
       - URLTest 自动选择
       - Fallback 故障转移
-      - Hong Kong | V2Ray
-      - Taiwan | V2Ray
-      - Japan | V2Ray
+      - 🇭🇰 Hong Kong | V2Ray
+      - 🇹🇼 Taiwan | V2Ray
+      - 🇯🇵 Japan | V2Ray
   - name: URLTest 自动选择
     type: url-test
     proxies:
-      - Hong Kong | V2Ray
-      - Taiwan | V2Ray
-      - Japan | V2Ray
+      - 🇭🇰 Hong Kong | V2Ray
+      - 🇹🇼 Taiwan | V2Ray
+      - 🇯🇵 Japan | V2Ray
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Fallback 故障转移
     type: fallback
     proxies:
-      - Hong Kong | V2Ray
-      - Taiwan | V2Ray
-      - Japan | V2Ray
+      - 🇭🇰 Hong Kong | V2Ray
+      - 🇹🇼 Taiwan | V2Ray
+      - 🇯🇵 Japan | V2Ray
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Final
@@ -76,9 +76,9 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - Hong Kong | V2Ray
-      - Taiwan | V2Ray
-      - Japan | V2Ray
+      - 🇭🇰 Hong Kong | V2Ray
+      - 🇹🇼 Taiwan | V2Ray
+      - 🇯🇵 Japan | V2Ray
   - name: Apple
     type: select
     proxies:
@@ -90,17 +90,17 @@ proxy-groups:
     proxies:
       - PROXY
       - DIRECT
-      - Hong Kong | V2Ray
-      - Taiwan | V2Ray
-      - Japan | V2Ray
+      - 🇭🇰 Hong Kong | V2Ray
+      - 🇹🇼 Taiwan | V2Ray
+      - 🇯🇵 Japan | V2Ray
   - name: HKMTMedia
     type: select
     proxies:
       - DIRECT
       - PROXY
-      - Hong Kong | V2Ray
-      - Taiwan | V2Ray
-      - Japan | V2Ray
+      - 🇭🇰 Hong Kong | V2Ray
+      - 🇹🇼 Taiwan | V2Ray
+      - 🇯🇵 Japan | V2Ray
   - name: Ads
     type: select
     proxies:
