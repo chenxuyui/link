@@ -18,12 +18,14 @@ proxies:
   - {"name":"专线 上海 → 新加坡 01","type":"ss","server":"node-iplc.sh-sg01.flhnmhy3w4fxntkb.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 上海 → 新加坡 02","type":"ss","server":"node-iplc.sh-sg02.pyykjkrydclwbj44.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 上海 → 日本 01","type":"ss","server":"node-iplc.sh-jp01.ztxg3xntkjl2bif7.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
+  - {"name":"专线 上海 → 日本 02","type":"ss","server":"node-iplc.sh-jp02.8h8wkhc3yjssbkdj.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 上海 → 美国 01","type":"ss","server":"node-iplc.sh-us01.6agtexec5pnpjwyx.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 上海 → 美国 02","type":"ss","server":"node-iplc.sh-us02.y6d4j2spkjmjt5xw.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 上海 → 韩国 01","type":"ss","server":"node-iplc.sh-kr01.ts82rpxmlixe6rp8.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 上海 → 香港 01","type":"ss","server":"node-iplc.sh-hk01.m7hpiwhrbccjtg4a.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 上海 → 香港 02","type":"ss","server":"node-iplc.sh-hk02.hsw3ajzy8b67afsn.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 上海 → 香港 03","type":"ss","server":"node-iplc.sh-hk03.j7etkbspwbyrntep.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
+  - {"name":"专线 上海 → 香港 04","type":"ss","server":"node-iplc.sh-hk04.y7fcp5h4cr7yrekr.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 北京 → 德国 01","type":"ss","server":"node-iplc.bj-fr01.dfnj2cfkblid4tpw.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 深圳 → 新加坡 01","type":"ss","server":"node-iplc.sz-sg01.c3h377tcewzcaxjw.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 深圳 → 新加坡 02","type":"ss","server":"node-iplc.sz-sg02.hn7brlywt7zehz35.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
@@ -31,6 +33,8 @@ proxies:
   - {"name":"专线 深圳 → 香港 02","type":"ss","server":"node-iplc.sz-hk02.phphz3jmsyhhpiaw.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 深圳 → 香港 03","type":"ss","server":"node-iplc.sz-hk03.al75yabne2ymzpbl.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"专线 深圳 → 香港 04","type":"ss","server":"node-iplc.sz-hk04.ycbhy7pk3njw6kri.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
+  - {"name":"专线 深圳 → 香港 05","type":"ss","server":"node-iplc.sz-hk05.2ckhkxzmxcmwtepx.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
+  - {"name":"专线 深圳 → 香港 06","type":"ss","server":"node-iplc.sz-hk06.hyw4tispspl744ff.nnn3ro.link","port":31830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"中继 上海 → 台湾 01","type":"ss","server":"cn-sh06.l3zcbmhwxpwdpdj7.node.nnn3ro.fun","port":51830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"中继 上海 → 新加坡 01","type":"ss","server":"cn-sh07.wdmewmiaa2yprrid.node.nnn3ro.fun","port":41830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
   - {"name":"中继 上海 → 新加坡 02","type":"ss","server":"cn-sh04.jjpxfrft6wfjtkah.node.nnn3ro.fun","port":41830,"cipher":"aes-256-cfb","password":"Z4pP7h","udp":true}
@@ -76,12 +80,14 @@ proxy-groups:
     - '专线 上海 → 新加坡 01'
     - '专线 上海 → 新加坡 02'
     - '专线 上海 → 日本 01'
+    - '专线 上海 → 日本 02'
     - '专线 上海 → 美国 01'
     - '专线 上海 → 美国 02'
     - '专线 上海 → 韩国 01'
     - '专线 上海 → 香港 01'
     - '专线 上海 → 香港 02'
     - '专线 上海 → 香港 03'
+    - '专线 上海 → 香港 04'
     - '专线 北京 → 德国 01'
     - '专线 深圳 → 新加坡 01'
     - '专线 深圳 → 新加坡 02'
@@ -89,6 +95,8 @@ proxy-groups:
     - '专线 深圳 → 香港 02'
     - '专线 深圳 → 香港 03'
     - '专线 深圳 → 香港 04'
+    - '专线 深圳 → 香港 05'
+    - '专线 深圳 → 香港 06'
     - '中继 上海 → 台湾 01'
     - '中继 上海 → 新加坡 01'
     - '中继 上海 → 新加坡 02'
@@ -131,12 +139,14 @@ proxy-groups:
     - '专线 上海 → 新加坡 01'
     - '专线 上海 → 新加坡 02'
     - '专线 上海 → 日本 01'
+    - '专线 上海 → 日本 02'
     - '专线 上海 → 美国 01'
     - '专线 上海 → 美国 02'
     - '专线 上海 → 韩国 01'
     - '专线 上海 → 香港 01'
     - '专线 上海 → 香港 02'
     - '专线 上海 → 香港 03'
+    - '专线 上海 → 香港 04'
     - '专线 北京 → 德国 01'
     - '专线 深圳 → 新加坡 01'
     - '专线 深圳 → 新加坡 02'
@@ -144,6 +154,8 @@ proxy-groups:
     - '专线 深圳 → 香港 02'
     - '专线 深圳 → 香港 03'
     - '专线 深圳 → 香港 04'
+    - '专线 深圳 → 香港 05'
+    - '专线 深圳 → 香港 06'
     - '中继 上海 → 台湾 01'
     - '中继 上海 → 新加坡 01'
     - '中继 上海 → 新加坡 02'
@@ -188,12 +200,14 @@ proxy-groups:
     - '专线 上海 → 新加坡 01'
     - '专线 上海 → 新加坡 02'
     - '专线 上海 → 日本 01'
+    - '专线 上海 → 日本 02'
     - '专线 上海 → 美国 01'
     - '专线 上海 → 美国 02'
     - '专线 上海 → 韩国 01'
     - '专线 上海 → 香港 01'
     - '专线 上海 → 香港 02'
     - '专线 上海 → 香港 03'
+    - '专线 上海 → 香港 04'
     - '专线 北京 → 德国 01'
     - '专线 深圳 → 新加坡 01'
     - '专线 深圳 → 新加坡 02'
@@ -201,6 +215,8 @@ proxy-groups:
     - '专线 深圳 → 香港 02'
     - '专线 深圳 → 香港 03'
     - '专线 深圳 → 香港 04'
+    - '专线 深圳 → 香港 05'
+    - '专线 深圳 → 香港 06'
     - '中继 上海 → 台湾 01'
     - '中继 上海 → 新加坡 01'
     - '中继 上海 → 新加坡 02'
@@ -254,12 +270,14 @@ proxy-groups:
     - '专线 上海 → 新加坡 01'
     - '专线 上海 → 新加坡 02'
     - '专线 上海 → 日本 01'
+    - '专线 上海 → 日本 02'
     - '专线 上海 → 美国 01'
     - '专线 上海 → 美国 02'
     - '专线 上海 → 韩国 01'
     - '专线 上海 → 香港 01'
     - '专线 上海 → 香港 02'
     - '专线 上海 → 香港 03'
+    - '专线 上海 → 香港 04'
     - '专线 北京 → 德国 01'
     - '专线 深圳 → 新加坡 01'
     - '专线 深圳 → 新加坡 02'
@@ -267,6 +285,8 @@ proxy-groups:
     - '专线 深圳 → 香港 02'
     - '专线 深圳 → 香港 03'
     - '专线 深圳 → 香港 04'
+    - '专线 深圳 → 香港 05'
+    - '专线 深圳 → 香港 06'
     - '中继 上海 → 台湾 01'
     - '中继 上海 → 新加坡 01'
     - '中继 上海 → 新加坡 02'
