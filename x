@@ -67,8 +67,6 @@ shadowsocks = iepl.us.4341.linkit.dev:24871, method=aes-256-gcm, password=d4pdI6
 shadowsocks = iepl.us.2e48.linkit.dev:24871, method=aes-256-gcm, password=d4pdI6, fast-open=false, udp-relay=false, tag=🇺🇲 United States 05 | Media
 
 [filter_local]
-GEOIP,CN,🎯 全球直连
-FINAL,🐟 漏网之鱼
 
 [rewrite_local]
 
