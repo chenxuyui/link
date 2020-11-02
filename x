@@ -24,6 +24,7 @@ static=奈飞视频, 🇯🇵 Japan 01 | Media, 🇯🇵 Japan 02 | Media, 🇯�
 [server_remote]
 
 [filter_remote]
+https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0&group=8J-MjSDlm73lpJblqpLkvZM, tag=国外媒体, enabled=true
 
 [rewrite_remote]
 
@@ -67,7 +68,8 @@ shadowsocks = iepl.us.4341.linkit.dev:24871, method=aes-256-gcm, password=d4pdI6
 shadowsocks = iepl.us.2e48.linkit.dev:24871, method=aes-256-gcm, password=d4pdI6, fast-open=false, udp-relay=false, tag=🇺🇲 United States 05 | Media
 
 [filter_local]
-
+GEOIP,CN,全球直连
+FINAL,漏网之鱼
 
 [rewrite_local]
 
