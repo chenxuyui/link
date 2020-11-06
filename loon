@@ -21,7 +21,7 @@ host = 127.0.0.1
 
 [Proxy Group]
 PROXY = select,
-URLTest 自动选择 = url-test,sub,SubProxy,url = http://www.qualcomm.cn/generate_204,interval = 600,tolerance = 100
+URLTest 自动选择 = url-test,,url = http://www.qualcomm.cn/generate_204,interval = 600,tolerance = 100
 
 Netflix = select,URLTest 自动选择 ,,DIRECT
 
