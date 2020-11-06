@@ -30,7 +30,6 @@ Netflix = select,URLTest 自动选择 ,,DIRECT
 
 
 GEOIP,cn,DIRECT
-FINAL,🐟 漏网之鱼
 
 [Remote Rule]
 
