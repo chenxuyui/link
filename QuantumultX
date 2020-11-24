@@ -12,7 +12,7 @@ server=8.8.8.8
 
 [policy]
 static=Proxies, AutoTest, DIRECT,
-static=AutoTest, 
+static=AutoTest, Proxies
 static=GlobalTV, Proxies, DIRECT,
 static=Netflix, Proxies, DIRECT,
 static=Spotify, Proxies, DIRECT,
