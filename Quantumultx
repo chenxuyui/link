@@ -21,7 +21,6 @@ static=Spotify, Proxies, DIRECT,
 [filter_remote]
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvUHJveHkubGlzdA&group=UHJveGllcw, tag=Proxies, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3RpbmR5MjAxMy9zdWJjb252ZXJ0ZXIvbWFzdGVyL2Jhc2UvcnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0&group=RElSRUNU, tag=DIRECT, enabled=true
-https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvTmV0ZmxpeC5saXN0&group=TmV0ZmxpeA, tag=Netflix, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvU3BvdGlmeS5saXN0&group=U3BvdGlmeQ, tag=Spotify, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvQUJDLmxpc3Q&group=R2xvYmFsVFY, tag=GlobalTV, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvQWJlbWElMjBUVi5saXN0&group=R2xvYmFsVFY, tag=GlobalTV, enabled=true
@@ -51,8 +50,6 @@ https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvVml1VFYubGlzdA&group=R2xvYmFsVFY, tag=GlobalTV, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvWW91VHViZSUyME11c2ljLmxpc3Q&group=R2xvYmFsVFY, tag=GlobalTV, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvWW91VHViZS5saXN0&group=R2xvYmFsVFY, tag=GlobalTV, enabled=true
-https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvVGVsZWdyYW0ubGlzdA&group=VGVsZWdyYW0, tag=Telegram, enabled=true
-https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvU3RlYW0ubGlzdA&group=U3RlYW0, tag=Steam, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvU3BlY2lhbC5saXN0&group=RElSRUNU, tag=DIRECT, enabled=true
 
 [rewrite_remote]
