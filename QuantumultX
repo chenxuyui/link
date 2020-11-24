@@ -11,20 +11,17 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=Proxies, AutoTest, DIRECT, 🇭🇰 Hong Kong | V2Ray
-static= AutoTest, 🇭🇰 Hong Kong | V2Ray
-static=AsianTV, DIRECT, Proxies
-static=GlobalTV, Proxies, DIRECT, 🇭🇰 Hong Kong | V2Ray
-static=Netflix, Proxies, DIRECT, 🇭🇰 Hong Kong | V2Ray
-static=Spotify, Proxies, DIRECT, 🇭🇰 Hong Kong | V2Ray
-static=Telegram, Proxies, DIRECT, 🇭🇰 Hong Kong | V2Ray
+static=Proxies, AutoTest, DIRECT,
+static=AutoTest,
+static=GlobalTV, Proxies, DIRECT,
+static=Netflix, Proxies, DIRECT,
+static=Spotify, Proxies, DIRECT,
+static=Telegram, Proxies, DIRECT,
 static=Steam, Proxies, DIRECT
 
 [server_remote]
 
 [filter_remote]
-https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvUHJveHkubGlzdA&group=UHJveGllcw, tag=Proxies, enabled=true
-https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvU3BlY2lhbC5saXN0&group=RElSRUNU, tag=DIRECT, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3RpbmR5MjAxMy9zdWJjb252ZXJ0ZXIvbWFzdGVyL2Jhc2UvcnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0&group=RElSRUNU, tag=DIRECT, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvTmV0ZmxpeC5saXN0&group=TmV0ZmxpeA, tag=Netflix, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvU3BvdGlmeS5saXN0&group=U3BvdGlmeQ, tag=Spotify, enabled=true
@@ -64,11 +61,13 @@ https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvWW91VHViZS5saXN0&group=R2xvYmFsVFY, tag=GlobalTV, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvVGVsZWdyYW0ubGlzdA&group=VGVsZWdyYW0, tag=Telegram, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvU3RlYW0ubGlzdA&group=U3RlYW0, tag=Steam, enabled=true
+https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvU3BlY2lhbC5saXN0&group=RElSRUNU, tag=DIRECT, enabled=true
+https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvUHJveHkubGlzdA&group=UHJveGllcw, tag=Proxies, enabled=true
+https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvRG9tZXN0aWMubGlzdA&group=RG9tZXN0aWM, tag=Domestic, enabled=true
 
 [rewrite_remote]
 
 [server_local]
-vmess = hk.ljf.kim:18651, method=chacha20-ietf-poly1305, password=754e481b-1a26-4083-b48e-c2e09831c85d, obfs=wss, obfs-host=hk.ljf.kim, obfs-uri=/7e7b643f2b88b9b/, fast-open=false, udp-relay=false, tag=🇭🇰 Hong Kong | V2Ray
 
 [filter_local]
 GEOIP,CN,DIRECT
