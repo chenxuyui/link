@@ -11,13 +11,12 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static= Proxy, AutoTest, Fallback, 
-static= Streaming, Proxy, AutoTest, 
-available= Fallback, 
-available= AutoTest, 
-static= Reject, REJECT
-static= Direct, DIRECT
-static= Final, Proxy, Direct
+static=Final, Proxy, Direct
+static=Streaming, Proxy, AutoTest, 
+available=Fallback, 
+available=AutoTest, 
+static=Reject, REJECT
+static=Direct, DIRECT
 
 [server_remote]
 
