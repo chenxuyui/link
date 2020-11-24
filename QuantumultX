@@ -24,7 +24,6 @@ static=Steam, Proxies, DIRECT
 
 [filter_remote]
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3RpbmR5MjAxMy9zdWJjb252ZXJ0ZXIvbWFzdGVyL2Jhc2UvcnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0&group=RElSRUNU, tag=DIRECT, enabled=true
-https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9TY2hvbGFyLmxpc3Q&group=U2Nob2xhcg, tag=Scholar, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvTmV0ZmxpeC5saXN0&group=TmV0ZmxpeA, tag=Netflix, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvU3BvdGlmeS5saXN0&group=U3BvdGlmeQ, tag=Spotify, enabled=true
 https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xoaWUxL1J1bGVzL21hc3Rlci9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvQmlsaWJpbGkubGlzdA&group=QXNpYW5UVg, tag=AsianTV, enabled=true
