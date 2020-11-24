@@ -13,8 +13,8 @@ server=8.8.8.8
 [policy]
 static=Final, Proxy, Direct
 static=Streaming, Proxy, AutoTest, 
-available=Fallback, 
-available=AutoTest, 
+available= Fallback, 
+available= AutoTest, 
 static=Reject, REJECT
 static=Direct, DIRECT
 
